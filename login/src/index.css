@@ -1,0 +1,68 @@
+.app {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  background-color: hsl(228, 56%, 98%);
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background-image: linear-gradient(to top, #305a97, #2657af, #3252c5, #4f46d5, #742fe0);
+  border: none;
+  color: #fff;
+  padding: 10px 50px;
+}
+
+/* input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+ */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 4rem;
+  height: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  text-align: center;
+  font-family: bold;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
